@@ -1,0 +1,106 @@
+include ../components/mixins/svg
+include ../components/button/button
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="styles/style.css")
+        title Telegram Mini App 
+        meta(name="description", content="Telegram Mini App")
+        meta(name="keywords", content="Telegram Mini App")
+
+
+    body
+        style(type="text/css").
+            li {
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            a {
+                color: #000000;
+                text-decoration: none;
+            }
+
+            ul, ol {
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-right: 16px;
+            }
+
+            .new {
+                background-color: #e0ffe6;
+            }
+        ol
+            li
+                a(href="loading-page-demo.html") Экран загрузки 
+                ul
+                    li
+                        a(href="loading-page.html") Экран загрузки (С классами анимации)
+            li
+                a(href="anouncement-page.html") Анонсы / Пробный период
+                ul
+                    li
+                        a(href="anouncement-page-bottom-sheet.html") Анонсы / Пробный период / Регистрация
+            li
+                a(href="anouncement-page-trial-active.html") Анонсы / Активирована бесплатная КК
+            li
+                a(href="anouncement-page-active-card.html") Анонсы / Активная КК
+            li
+                a(href="anouncement-page-full-price.html") Анонсы / КК по полной цене
+
+            li
+                a(href="account-page.html") Аккаунт
+                ul
+                    li
+                        a(href="account-page-bottom-sheet-trial.html") Аккаунт / Пробный период / Регистрация
+                    li
+                        a(href="account-page-bottom-sheet-tg.html") Аккаунт / Подписаться на ТГ
+                    li
+                        a(href="account-page-bottom-sheet-tg-checking.html") Аккаунт / Пробный период / Регистрация
+                    li
+                        a(href="account-page-bottom-sheet-tg-processing.html") Аккаунт / Подписаться на ТГ / Проверка 
+                    li
+                        a(href="account-page-bottom-sheet-tg-success.html") Аккаунт / Подписаться на ТГ / Подписан
+
+            li
+                a(href="account-page-active-card-trial.html") Аккаунт / Пробный период КК 
+                ul
+                    li
+                        a(href="account-page-active-card-trial-bottom-sheet.html") Аккаунт / Пробный период / Регистрация
+            li
+                a(href="account-page-active-card.html") Аккаунт / Активная КК 
+
+            li
+                a(href="calendar-page.html") Календарь
+
+            
+            
+            //- div -------------------
+            
+            //- //- лыово
+            //- li
+            //-     a(href="activities-page-registered.html") Активности (Зарегистрирован)
+            //- li 
+            //-     a(href="bottom-sheet-community.html") Подписаться на сообщество
+            //-     ul
+            //-         li
+            //-             a(href="bottom-sheet-community-checking.html") Проверка подписки
+            //-         li
+            //-             a(href="bottom-sheet-community-processing.html") Идет проверка
+            //-         li
+            //-             a(href="bottom-sheet-community-success.html") Вы подписаны
+            //-         li
+            //-             a(href="bottom-sheet-community-book-send.html") Уведомление(Подборка отправлена)
+            //-         li
+            //-             a(href="bottom-sheet-community-success-sign-up.html") Уведомление(Успешная регистрация)
+            //- li 
+            //-     a(href="bottom-sheet-mail.html") Подписаться на рассылку
+ 
+
+
+
+        
+        

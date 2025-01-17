@@ -1,0 +1,19 @@
+.account-section
+    .account-section__header
+        include ../../avatar-label-group/avatar-label-group
+
+    .account-section__nav-list 
+        a(href="#").account-section__nav-item
+            span.account-section__nav-item-content
+                span.account-section__nav-item-icon 
+                    +svg('20','20','comment-question')
+                | Задать вопрос
+
+            span.account-section__nav-item-chevron 
+                +svg('20', '20', 'angle-right')
+    .account-section__block
+        .account-section__block-header 
+            h1.title Предложение для вас
+        .account-section__block-list
+            include ../../promo-card/promo-card-pink
+        

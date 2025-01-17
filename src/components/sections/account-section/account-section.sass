@@ -1,0 +1,83 @@
+.account-section
+
+    &__header
+        padding-bottom: $padding-20 
+        padding-top: $padding-20
+        padding-left: $padding-16
+        padding-right: $padding-16
+
+
+    &__nav-list
+        padding-left: $padding-16
+        padding-right: $padding-16
+
+
+    &__nav-item
+        display: flex
+        align-items: center
+        text-decoration: none
+        border-bottom: 1px solid $border
+
+        &:first-child
+            border-top: 1px solid $border
+
+        &:not(:last-child)
+            border-top: 1px solid $border
+
+
+    &__nav-item-content
+        display: flex
+        font-size: 16px
+        line-height: 24px
+        padding-top: 15px
+        padding-bottom: 15px
+        color: $text-primary
+        font-family: $medium
+        
+
+
+
+    &__nav-item-icon
+        width: $width-24
+        height: $height-24
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-right: $space-12
+
+
+        svg
+            fill: $icon-accent-outline
+            width: 100%
+            height: 100%
+
+    &__nav-item-chevron
+        margin-left: auto
+        width: $width-20
+        height: $height-20
+        display: flex
+        justify-content: center
+        align-items: center
+
+        svg
+            width: 100%
+            height: 100%
+            fill: $icon-secondary-outline
+
+    &__block
+        padding-left: $padding-16
+        padding-right: $padding-16
+        padding-top: $padding-24
+
+    &__block-header
+        margin-bottom: 20px
+
+    &__block-list
+        display: flex
+        flex-direction: column
+        row-gap: 16px
+
+    &__button
+        padding-left: $padding-16
+        padding-right: $padding-16
+        margin-top: $space-24

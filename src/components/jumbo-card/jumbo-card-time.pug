@@ -1,0 +1,14 @@
+include ../pill/pill
+include ../button/button-link
+
+.jumbo-card.jumbo-card--align-left(style="background-image: url('img/jumbo-card/day-1.webp')")
+    a(href="#").jumbo-card__link
+    .jumbo-card__content
+        .jumbo-card__pill
+            +pill('', 'Свободный вход')
+        .jumbo-card__description 
+            .jumbo-card__description-header
+                .title.title--inverse Как создать подтянутое тело без изнуряющих тренировок
+                .jumbo-card__description-info  Оборудование: не требуется
+            .jumbo-card__description-button
+                .time-data 24 янв, 11:00 Мск

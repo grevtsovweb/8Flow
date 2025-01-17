@@ -1,0 +1,34 @@
+include mixins/svg
+include button/button
+include button/button-right
+include button/button-link
+include snackbar/snackbar
+include list-item-line/list-item-line
+include exercise-day/exercise-day
+include pill/pill
+include mixins/svg
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="styles/style.css")
+        title Telegram Mini App 
+        meta(name="description", content="Telegram Mini App")
+        meta(name="keywords", content="Telegram Mini App")
+
+    body
+        .app
+            .app__content
+                include sections/account-section/account-section
+                include bottom-sheet/bottom-sheet-community-processing
+
+            .app__nav-bar
+                .app__nav-bar-content
+                    include nav-bar/nav-bar
+
+
+
+        
+        
