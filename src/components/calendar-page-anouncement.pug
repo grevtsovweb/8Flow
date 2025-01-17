@@ -1,10 +1,7 @@
 include mixins/svg
-include button/button
-include button/button-right
-include button/button-link
 include snackbar/snackbar
-include list-item-line/list-item-line
-include exercise-day/exercise-day
+
+include button/button
 include pill/pill
 include mixins/svg
 
@@ -18,17 +15,22 @@ html(lang="ru")
         meta(name="description", content="Telegram Mini App")
         meta(name="keywords", content="Telegram Mini App")
 
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css")
+
+
+
+
     body.unscrollable
         .app
             .app__content
-                include sections/account-section/account-section
-                include bottom-sheet/bottom-sheet-community
+                include sections/calendar-section/calendar-section
+                include bottom-sheet/bottom-sheet-anouncement
 
             .app__nav-bar
                 .app__nav-bar-content
                     include nav-bar/nav-bar
 
-
-
+        script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+        script(src="js/main.js")
         
         
