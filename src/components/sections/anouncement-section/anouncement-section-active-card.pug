@@ -10,11 +10,16 @@
     .anouncement-section__description
         p.text Участники сообщества Pilates Flow всегда рады поддержать новичков и поделиться мотивацией. А эксперты раскрывают  секреты, как добиться результатов быстрее и эффективнее
 
-    .anouncement-section__notice-block
-        label.switch
-            span.switch__info
-                span.switch__info-title Получать напоминания
-                span.switch__info-description Пришлём ссылку с напоминанием за 15 минут до начала
-            input(type="checkbox" name= name, value= value, id= id checked)
-            span.switch__checkbox-wrapper
-                span.switch__checkbox-toggle
+    .anouncement-section__button-block
+        +button-right('Вы зарегистрированы', 'button--full-width button--secondary-positive', false, 'check')
+
+    //- .anouncement-section__notice-block
+    //-     label.switch
+    //-         span.switch__info
+    //-             span.switch__info-title Получать напоминания
+    //-             span.switch__info-description Пришлём ссылку с напоминанием за 15 минут до начала
+    //-         input(type="checkbox" name= name, value= value, id= id checked)
+    //-         span.switch__checkbox-wrapper
+    //-             span.switch__checkbox-toggle
+
+    
